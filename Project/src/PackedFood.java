@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class PackedFood implements Household{
-    int x;
+    int x;int q;
 
 
     //@Override
@@ -16,7 +16,7 @@ public class PackedFood implements Household{
         //3i.close();       
     }
 
-    public void pricing( int q){
+    public void pricing(){
         
         if(x==1){ 
            
@@ -39,11 +39,11 @@ public class PackedFood implements Household{
     }
     public void measuredValue(){
         
-        int q;
+        //int q;
         System.out.println("Enter the quantity: ");
         Scanner v = new Scanner(System.in);
         q=v.nextInt();
-        pricing(q);
+        pricing();
         //v.close();        
     }
     // @Override

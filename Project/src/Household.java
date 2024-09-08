@@ -5,7 +5,7 @@ import java.util.Scanner;
 public interface Household {
     //abstract 
     public void selling();
-    //abstract public void pricing();
+    public void pricing();
     public void measuredValue();
     
 
