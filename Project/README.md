@@ -1,9 +1,10 @@
-BASIC GROCERY MANAGEMENT SYSTEM
+#BASIC GROCERY MANAGEMENT SYSTEM
 
 This project simulates a simple grocery store where users can purchase various items such as Vegetables, Fruits, and Packed Food. Each item category has its own pricing, and the system calculates the total cost based on the selected item and quantity.
 
 
-Project Structure
+##Project Structure
+
 The project includes the following classes:
  
 Household (Interface):
