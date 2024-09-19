@@ -13,7 +13,7 @@ public class PackedFood implements Household{
         Scanner i = new Scanner(System.in);
         x=i.nextInt();
         measuredValue();
-        //3i.close();       
+        //i.close();       
     }
 
     public void pricing(){

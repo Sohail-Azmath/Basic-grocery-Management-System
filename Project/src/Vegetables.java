@@ -14,7 +14,7 @@ class Encaps
 }
 public class Vegetables implements Household {
     float q;
-    @Override
+    //@Override
     public void selling(){
         System.out.println("1.Carrot\n2.BeetRoot\n3.Tomato\n4.Chilly");        
     }
@@ -34,7 +34,7 @@ public class Vegetables implements Household {
         Scanner obj = new Scanner(System.in);
         q = obj.nextFloat();
         pricing();
-        //1obj.close();
+        //obj.close();
     }
     
     
