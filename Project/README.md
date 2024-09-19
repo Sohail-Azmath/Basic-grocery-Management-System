@@ -1,18 +1,33 @@
-## Getting Started
+BASIC GROCERY MANAGEMENT SYSTEM
+<br>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project simulates a simple grocery store where users can purchase various items such as Vegetables, Fruits, and Packed Food. Each item category has its own pricing, and the system calculates the total cost based on the selected item and quantity.
 
-## Folder Structure
+<br>
+Project Structure
+The project includes the following classes:
+ <br>
+Household (Interface):
+<br>
+Provides the base methods for item categories, including:
+selling(): Displays the list of items available in the category.
+pricing(): Calculates and displays the total price based on the quantity.
+measuredValue(): Takes input for the quantity to calculate the total price.
+<br>
+PackedFood:
 
-The workspace contains two folders by default, where:
+Implements the Household interface.
+Handles various packed food items (Pasta, Magiee, Lays, Biscuits).
+Prices are calculated based on predefined rates for each item.
+<br>
+Vegetables:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Implements the Household interface.
+Handles various vegetable items (Carrot, Beetroot, Tomato, Chilly).
+Uses an encapsulated class Encaps to store and retrieve the rate of vegetables.
+<br>
+Fruits:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Implements the Household interface.
+Handles various fruit items (Apple, Banana, Mango, Orange).
+Prices are based on a fixed rate.
